@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 1rem;
+}
+
+@@font-face {
+  font-family: 'Gelasio', serif;
+}
+body {
+  background-color: #EBDDFC;
+}
+
+.header {
+  border: 1px solid red;
+  background-color: #141712;
+  display: flex;
+}
+.header h1 {
+  color: #D5DAD2;
+  padding: 10px;
+  font-size: 1.5rem;
+}
