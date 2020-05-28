@@ -11,9 +11,7 @@
   font-family: 'Source Sans Pro', sans-serif;
 }
 
-body {
-  background-color: #E6AD0F;
-}
+
 
 .shadow {
   -webkit-box-shadow: inset 0px -8px 5px 0px rgba(20,21,20,1);
@@ -29,7 +27,6 @@ body {
 
 .header {
   background-color: #333533;
-  display: flex;
   border-bottom: 5px solid #E9EBEB;
   width: 100%;
 }
@@ -45,17 +42,6 @@ body {
  /*border: 3px solid red;*/
 
  background-color: #333533;
- min-height: 300px;
- display: flex;
- flex-direction: column;
- justify-content: center;
-}
-
-.section-container-2{
- /*border: 3px solid red;*/
-
- background-color: #E6AD0F;
- min-height: 300px;
  display: flex;
  flex-direction: column;
  justify-content: center;
@@ -75,6 +61,19 @@ body {
  padding: 20px;
 }
 
+.section-container img{
+  display: block;
+}
+
+
+.section-container-2{
+ /*border: 3px solid red;*/
+ background-color: #E6AD0F;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+}
+
 .section-container-2 h2 {
   font-size: 1.5rem;
   color: #333533;
@@ -89,8 +88,6 @@ body {
  padding: 20px;
 }
 
-
-
 #introduce,
 #leonardo{
   font-style: normal;
@@ -101,4 +98,8 @@ body {
   font-style: normal;
   font-weight: 700;
   color: #333533;
+  background-color: #E9EBEB;
+  padding: 0px 5px;
+  border-radius: 3px;
+  cursor: pointer;
 }
