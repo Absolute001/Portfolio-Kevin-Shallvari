@@ -14,9 +14,9 @@
 
 
 .shadow {
-  -webkit-box-shadow: inset 0px -8px 5px 0px rgba(20,21,20,1);
-  -moz-box-shadow: inset 0px -8px 5px 0px rgba(20,21,20,1);
-  box-shadow: inset 0px -8px 5px 0px rgba(20,21,20,1);
+  -webkit-box-shadow: inset 0px -8px 5px 1px rgba(0,0,0,0.75);
+  -moz-box-shadow: inset 0px -8px 5px 1px rgba(0,0,0,0.75);
+  box-shadow: inset 0px -8px 5px 1px rgba(0,0,0,0.75);
 }
 
 .shadow-rv {
@@ -39,7 +39,7 @@
 }
 
 .section-container{
- /*border: 3px solid red;*/
+/*border: 3px solid red;*/
 
  background-color: #333533;
  display: flex;
@@ -49,6 +49,8 @@
 
 .section-container img {
   padding: 10px;
+  border-radius: 5px;
+  display: block;
 }
 
 .section-container h2 {
@@ -65,10 +67,10 @@
  padding: 20px;
 }
 
-.section-container img{
-  display: block;
+.section-container iframe {
+  padding: 20px;
+  border-radius: 10px;
 }
-
 
 .section-container-2{
  /*border: 3px solid red;*/
@@ -92,7 +94,9 @@
  padding: 20px;
 }
 
+
 .logo-box {
+  display: flex;
   flex-direction: row;
   justify-content: space-around;
   padding: 10px;
@@ -101,6 +105,10 @@
   border-radius: 5px;
 }
 
+#soundcloud {
+  margin: 10px 20px 20px 20px;
+  border-radius: 5px;
+}
 
 #introduce,
 #leonardo{
