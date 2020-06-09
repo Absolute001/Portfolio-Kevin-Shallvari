@@ -32,7 +32,7 @@
 
   	animation: slide-bottom 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
     border-bottom: 5px solid  #E6AD0F;
-    position: fixed;
+    position: sticky;
     top :0;
     z-index: 10;
 }
@@ -44,10 +44,6 @@
   font-size: 1.5rem;
 }
 
-.page-container {
-  position: relative;
-  top:55px;
-}
 
 
 /* ----------------------------------------------
@@ -75,6 +71,17 @@ body {
   background-color: #333533;
 }
 
+.image-container {
+  padding: 20px 20px 10px 20px;
+}
+
+.my-picture {
+  border-radius: 5px;
+  display: block;
+  width: 100%;
+  height:auto;
+}
+
 .section-container{
 /*border: 3px solid red;*/
 
@@ -82,16 +89,7 @@ body {
  display: flex;
  flex-direction: column;
  justify-content: center;
-}
-
-
-
-#alter-ego {
-  border-radius: 5px;
-  display: block;
-  max-width: 100%;
-  height: auto;
-  margin: 10px;
+ height: auto;
 }
 
 .section-container h2 {
@@ -105,7 +103,7 @@ body {
 .section-container p  {
  font-style: italic;
  color: #E9EBEB;
- padding: 20px;
+ margin: 0 20px 20px 20px;
  text-align: justify;
 }
 
@@ -133,7 +131,7 @@ body {
 .section-container-2 p  {
  font-style: italic;
    color: #333533;
- padding: 20px;
+ margin: 10px 20px 20px 20px;
 }
 
 
@@ -224,4 +222,27 @@ body {
   border: 10px solid #333533;
   height: 140px;
   border-radius: 5px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px)  {
+
+  .ks h1 {
+    font-size: 2rem;
+  }
+
+  .image-container {
+    padding: 20px;
+  }
+
+  .my-picture {
+    border-radius: 5px;
+    display: block;
+    width: 100%;
+    height:auto;
+  }
+
+  .section-container p {
+    padding-bottom: 10px;
+  }
+
 }
