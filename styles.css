@@ -67,6 +67,7 @@ body {
   display: flex;
   justify-content: center;
   height: auto;
+  margin-bottom: 20px;
 }
 
 .my-picture {
@@ -185,6 +186,12 @@ body {
   list-style-type: none;
 }
 
+#mix-1 {
+  margin-top: 10px;
+  display: block;
+  }
+
+
 #introduce,
 #leonardo{
   font-style: normal;
@@ -201,14 +208,6 @@ body {
   margin-top: 20px;
 }
 
-#mix-1 {
-  display: none;
-}
-
-#mix-2 {
-  margin-top: 10px;
-  display: block;
-  }
 
 @media screen and (min-width:426px) {
 
@@ -226,24 +225,29 @@ p, a, span{
 }
 
 #soundcloud {
-  margin-top: 10px;
+  margin: 20px 0;
 }
 
 .logo-box {
   margin-top: 20px;
 }
 
-#mix-2 {
-  display: none;
 }
 
-#mix-1 {
-  margin-top: 10px;
-  display: block;
+@media screen and (min-width: 1440px) {
+
+  p, a, span{
+    font-size: 2rem;
   }
 
-}
+  .ks h1 {
+    font-size: 3rem;
+  }
 
-@media screen and (min-width: 1024px) {
+  .section-container h2,
+  .section-container-2 h2 {
+    font-size: 2.5rem;
+  }
+
 
 }
